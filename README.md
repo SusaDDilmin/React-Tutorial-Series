@@ -1,4 +1,4 @@
-# React-Tutorial-Series
+# React-Native-Tutorial-Series
 
 This project is made by following this [YouTube tutorial](https://youtu.be/WDunoPNBxKA?si=tLiFyiabczh7T0sb).
 
