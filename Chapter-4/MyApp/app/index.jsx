@@ -7,7 +7,7 @@ import React from 'react'
 // Link - for navigation between screens(or pages)
 import { Link } from 'expo-router'
 
-import iceCoffeeImage from "../../assets/images/ice-coffee.jpg"
+import iceCoffeeImage from "../assets/images/ice-coffee.jpg"
 
 const App = () => {
   return (
