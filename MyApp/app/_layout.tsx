@@ -1,5 +1,7 @@
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
+// Stack - is a component that allows you to define a stack of screens in your app.
+//Like when you create a page it's name whill shown above ...
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
@@ -31,6 +33,9 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        {/* <Stack.Screen name="(coffee)" options={{ headerShown: false }} /> */}
+        <Stack.Screen name='index' options={{ title : "Home" , headerShown: false }} /> 
+        <Stack.Screen name='explore' options={{ title : "Explore more" }} />
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="auto" />

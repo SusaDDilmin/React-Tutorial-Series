@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link, Stack } from 'expo-router';
 import { StyleSheet } from 'react-native';
 
@@ -7,6 +8,7 @@ import { ThemedView } from '@/components/ThemedView';
 export default function NotFoundScreen() {
   return (
     <>
+    {/* Like below we can put Stack in the element itself and it will override on _layout.jsx */}
       <Stack.Screen options={{ title: 'Oops!' }} />
       <ThemedView style={styles.container}>
         <ThemedText type="title">This screen doesn't exist.</ThemedText>
