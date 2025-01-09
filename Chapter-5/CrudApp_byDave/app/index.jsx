@@ -75,7 +75,6 @@ export default function Index() {
         renderItem = {renderItem}
         keyExtractor={item => item.id.toString()}
         contentContainerStyle = {{flexGrow : 1}}
-
       >
       </FlatList>
     </SafeAreaView>
