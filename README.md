@@ -9,3 +9,10 @@ This project is made by following this [YouTube tutorial](https://youtu.be/WDuno
 
 **End of Chapter 4:**
 Created a small Coffee Shop App
+## Chapter 6
+
+### Installed Packages
+
+1. `npm i @expo-google-fonts/inter`
+    - This command installs the new font package from Expo Google Fonts.
+
