@@ -16,3 +16,8 @@ Created a small Coffee Shop App
 1. `npm i @expo-google-fonts/inter`
     - This command installs the new font package from Expo Google Fonts.
 
+
+2. `npm install @react-native-async-storage/async-storage`
+    - This command installs the Async Storage package, which is used for storing data locally in React Native apps.
+
+
