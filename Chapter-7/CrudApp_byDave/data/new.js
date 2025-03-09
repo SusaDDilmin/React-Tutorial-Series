@@ -1,7 +1,7 @@
-import { View, Text } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const new = () => {
+export default function new() {
   return (
     <View>
       <Text>new</Text>
@@ -9,4 +9,4 @@ const new = () => {
   )
 }
 
-export default new
+const styles = StyleSheet.create({})
